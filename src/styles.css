@@ -1,1 +1,9 @@
-/* You can add global styles to this file, and also import other style files */
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300..700&display=swap');
+
+h1, h2, h3, h4, h5, p {
+    font-family: 'Comfortaa';
+}
+body {
+    background-color: #F9D0A3;
+    color: #151217;
+}

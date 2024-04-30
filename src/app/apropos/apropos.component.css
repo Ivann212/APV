@@ -1,0 +1,13 @@
+p {
+    width: 500px;
+    text-align: center;  
+}
+.texte {
+    display: flex;
+    justify-content: center;
+}
+.main{
+    margin-top: 200px;
+    margin-bottom: 200px;
+}
+

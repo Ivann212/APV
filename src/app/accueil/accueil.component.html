@@ -1,0 +1,24 @@
+<app-header/>
+<div class="main">
+    <h2 class="d-flex justify-content-center pb-4">Nos figurines !</h2>
+    <div class="d-flex justify-content-end pe-4 mb-4">
+        <button (click)="trierParPrixCroissant()" class="btn " style="background-color: #FDD90B; color: #151217;">trier par prix croissant</button>
+        <button (click)="trierParPrixDecroissant()" class="btn ms-4" style="background-color: #FDD90B; color: #151217;">trier par prix décroissant</button>
+    </div>
+    
+
+    <div class="row col-lg-12 d-flex justify-content-evenly">
+        <div class="card col-md-6 mb-4 p-4" *ngFor="let produits of (produitsaccueil | sortbyprice)" style="width: 23rem;">
+            <img [src]="produits.imageUrl"  className="card-img-top" alt="des pierres une tête et une fleur rose"/>
+            <div className="card-body">
+                <h5 className="card-title fw-bolder">{{produits.name}}</h5>
+                <p className="card-text fw-semibold">{{produits.price}}</p>
+                <button type="button" id="bouton" class="btn btn-primary">Voir</button>
+            </div>
+                    
+        </div>
+    </div>
+</div>
+<app-footer/>
+  
+

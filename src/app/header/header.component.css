@@ -1,0 +1,14 @@
+img {
+    width: 100px;
+}
+#mainNav {
+    background-color: #DA001E;
+}
+a {
+    font-weight: 900;
+}
+a:hover {
+    background-color: #FDD90B;
+    
+}
+
